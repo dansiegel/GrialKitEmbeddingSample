@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "path": "GrialKitEmbeddingSample.sln",
+    "projects": [
+      "GrialKitEmbeddingSample.Mobile\\GrialKitEmbeddingSample.Mobile.csproj",
+      "GrialKitEmbeddingSample.Base\\GrialKitEmbeddingSample.Base.csproj",
+      "GrialKitEmbeddingSample\\GrialKitEmbeddingSample.csproj"
+    ]
+  }
+}

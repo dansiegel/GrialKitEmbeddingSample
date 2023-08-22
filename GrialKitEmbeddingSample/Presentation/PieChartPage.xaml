@@ -1,0 +1,8 @@
+<Page x:Class="GrialKitEmbeddingSample.Presentation.PieChartPage"
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+	<embed:MauiHost x:Name="MauiHostElement"
+					xmlns:embed="using:Uno.Extensions.Maui"
+					xmlns:controls="using:GrialControlsTestBed.Views"
+					Source="controls:PieChartPage" />
+</Page>
