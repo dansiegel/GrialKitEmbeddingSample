@@ -84,7 +84,7 @@ public class App : EmbeddingApplication
 				{
 					new RouteMap("Main", View: views.FindByViewModel<MainViewModel>(), Nested: new RouteMap[]
 					{
-						new RouteMap("AreaChart", View: views.FindByView<AreaChartPage>()),
+						new RouteMap("AreaChart", View: views.FindByView<AreaChartPage>(), IsDefault: true),
 						new RouteMap("BarChartPage", View: views.FindByView<BarChartPage>()),
 						new RouteMap("BarMultiSeries", View: views.FindByView<BarMultiSeriesPage>()),
 						new RouteMap("LineChart", View: views.FindByView<LineChartPage>()),
