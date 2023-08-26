@@ -4,5 +4,5 @@
 	<embed:MauiHost x:Name="MauiHostElement"
 					xmlns:embed="using:Uno.Extensions.Maui"
 					xmlns:controls="using:GrialControlsTestBed.Views"
-					Source="controls:BarMultiSeriesPage" />
+					Source="controls:BarMultiSeriesSample" />
 </Page>

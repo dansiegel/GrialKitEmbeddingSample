@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="GrialControlsTestBed.Views.BarMultiSeriesPage"
+             x:Class="GrialControlsTestBed.Views.BarMultiSeriesSample"
              xmlns:grial="http://uxdivers.com/grial"
              xmlns:local="clr-namespace:GrialControlsTestBed.Views"
-             Title="BarMultiSeriesPage">
+             Title="BarMultiSeriesSample">
     <VerticalStackLayout Padding="30" Spacing="20">
 
         <grial:CategoryChart
+            x:Name="chart"
             Grid.Row="1"
             Margin="-20,0,-10,0"
             AxisFontColor="Gray"
