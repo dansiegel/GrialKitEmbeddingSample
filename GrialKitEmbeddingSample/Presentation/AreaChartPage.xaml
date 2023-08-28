@@ -10,6 +10,6 @@
 	<embed:MauiHost x:Name="MauiHostElement" Grid.Row="1"
 					xmlns:embed="using:Uno.Extensions.Maui"
 					xmlns:controls="using:GrialControlsTestBed.Views"
-					Source="controls:AreaChartPage" />
+					Source="controls:AreaChartSample" />
 	</Grid>
 </Page>

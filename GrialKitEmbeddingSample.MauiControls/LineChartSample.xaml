@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="GrialControlsTestBed.Views.LineChartPage"
+             x:Class="GrialControlsTestBed.Views.LineChartSample"
              xmlns:grial="http://uxdivers.com/grial"
              xmlns:local="clr-namespace:GrialControlsTestBed.Views"
-             Title="LineChartPage">
+             Title="LineChartSample">
     <VerticalStackLayout Padding="30" Spacing="20">
 
         <grial:CategoryChart
+            x:Name="chart"
             HeightRequest="100"
             LabelFontColor="Gray"
             DisplayValues="False"
