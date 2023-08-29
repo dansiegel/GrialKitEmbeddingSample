@@ -9,7 +9,7 @@
 
         <!-- HORIZONTAL BAR CHART -->
         <grial:HorizontalBarChart
-            x:Name="chart"
+            x:Name="chart1"
             AxisFontColor="DarkGray"
             AxisLinesColor="#E0E3EC"
             AxisLinesStrokeSize="1"
@@ -38,6 +38,7 @@
         </grial:HorizontalBarChart>
 
         <grial:BarChart
+            x:Name="chart2"
             AxisFontColor="DarkGray"
             AxisLinesColor="#E0E3EC"
             AxisLinesStrokeSize="1"

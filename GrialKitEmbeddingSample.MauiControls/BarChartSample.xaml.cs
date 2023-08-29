@@ -6,6 +6,6 @@ public partial class BarChartSample : ContentPage
 	{
 		InitializeComponent();
 
-        chart.BindingContext = SampleData.Bar();
+        chart1.BindingContext = chart2.BindingContext = SampleData.Bar();
     }
 }
